@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="bg.css"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="script.js" defer></script>
+  
+  <title>Challenge</title>
+</head>
+<body>
+  <main>
+    <section id="card" class="signup">
+      <form id="signForm" novalidate>
+      <div class="container">
+        <div class="container2">
+          <div class="lcontent">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul>
+              <li><img src="assets/images/icon-list.svg" alt="Icon" width="20"> Product discovery and building what matters</li>
+              <li><img src="assets/images/icon-list.svg" alt="Icon" width="20"> Measuring to ensure updates are a success</li>
+              <li><img src="assets/images/icon-list.svg" alt="Icon" width="20"> And much more!</li>
+            </ul>
+              <div class="emailERR">
+                <label for="email">Email address</label>
+                <span class="errorMSG" id="errorMSG"></span>
+              </div>
+              <input type="email" id="email" placeholder="email@company.com">
+              <button type="submit">Subscribe to monthly newsletter</button>
+            </form>
+          </div>
+
+          <div class="imageContainer">
+            <img src="assets/images/illustration-sign-up-desktop.svg" alt="Illustration">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="registered hidden" id="registered">
+      <img src="./assets/images/icon-success.svg" alt="Success check icon" class="icon-success">
+
+      <h1>Thanks for subscribing!</h1>
+
+      <p>A confirmation email has been sent to <span class="userReg">ash@loremcompany.com</span>. 
+        Please open it and click the button inside to confirm your subscription.</p>
+
+      <button class="closeBTN">Dismiss message</button>
+    </div>
+  </main>
+</body>
+</html>
