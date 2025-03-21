@@ -1,0 +1,26 @@
+{
+    "name": "newsletter-sign-up-with-success-message-main",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/HarveyBarbuco/Challenge-Midterm.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/HarveyBarbuco/Challenge-Midterm/issues"
+    },
+    "homepage": "https://github.com/HarveyBarbuco/Challenge-Midterm#readme",
+    "description": ""
+  }
